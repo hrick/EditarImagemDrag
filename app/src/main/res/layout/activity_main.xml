@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/fotoBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_overlay"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.henrique.editarimagemdrag.TouchImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ferrari_motor" />
+
+    <!--<com.henrique.editarimagemdrag.FocusView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+
+
+
+    <ImageView
+        android:src="@drawable/arrow_red"
+        android:foregroundGravity="center"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:scaleType="matrix"
+        android:layout_height="match_parent"
+        android:id="@+id/imgOrologio"/>
+
+
+    <!--<LinearLayout-->
+        <!--android:background="@color/black_overlay"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <!--<TextureView-->
+        <!--android:id="@+id/textureView"-->
+        <!--android:src="@drawable/ic_arrow"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+</FrameLayout>
